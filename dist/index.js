@@ -1,5 +1,6 @@
-"use strict";
+'use strict';
 
+var hi = 'hello';
 setTimeout(function () {
-  console.log("ES2015 FTW");
+  console.log(' ' + hi + ' ES2015 FTW');
 }, 1000);
